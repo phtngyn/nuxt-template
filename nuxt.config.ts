@@ -8,11 +8,29 @@ export default defineNuxtConfig({
   devtools: {
     enabled: false,
   },
+
   css: ['~/assets/css/main.css'],
+
   future: {
-    compatibilityVersion: 4,
+    compatibilityVersion: 5,
   },
+
+  experimental: {
+    viteEnvironmentApi: true,
+    typescriptPlugin: true,
+  },
+
   compatibilityDate: '2025-05-01',
+
+  typescript: {
+    tsConfig: {
+      compilerOptions: {
+        noUncheckedIndexedAccess: true,
+        exactOptionalPropertyTypes: true,
+      },
+    },
+  },
+
   eslint: {
     config: {
       standalone: false,
