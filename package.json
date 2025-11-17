@@ -16,6 +16,9 @@
     "lint": "npx eslint .",
     "typecheck": "nuxt typecheck"
   },
+  "dependencies": {
+    "zod": "^4.1.12"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^6.2.0",
     "@nuxt/eslint": "^1.10.0",
