@@ -4,6 +4,7 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@vueuse/nuxt',
   ],
+
   devtools: {
     enabled: false,
   },
@@ -17,6 +18,7 @@ export default defineNuxtConfig({
   experimental: {
     viteEnvironmentApi: true,
     typescriptPlugin: true,
+    payloadExtraction: true,
   },
 
   compatibilityDate: '2025-05-01',

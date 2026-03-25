@@ -13,8 +13,8 @@ strict-peer-dependencies: false
 trustPolicy: no-downgrade
 overrides:
   chokidar: ^5.0.0
-  magicast: ^0.5.1
-  semver: ^7.7.3
+  magicast: ^0.5.2
+  semver: ^7.7.4
 
 ignoredBuiltDependencies:
   - '@parcel/watcher'
