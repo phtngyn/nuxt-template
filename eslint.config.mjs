@@ -8,5 +8,8 @@ export default nuxt(
     rules: {
       'no-console': 'off',
     },
+    pnpm: {
+      catalogs: true,
+    },
   }),
 )

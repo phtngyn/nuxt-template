@@ -2,7 +2,7 @@
   "name": "nuxt",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.33.0",
+  "packageManager": "pnpm@11.1.2",
   "engines": {
     "node": ">=22",
     "pnpm": ">=10"
@@ -17,23 +17,23 @@
     "typecheck": "nuxt typecheck"
   },
   "dependencies": {
-    "zod": "^4.3.6"
+    "zod": "catalog:"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^7.7.3",
-    "@nuxt/eslint": "^1.15.2",
-    "@nuxt/ui": "^4.6.0",
-    "@vueuse/core": "^14.2.1",
-    "@vueuse/nuxt": "^14.2.1",
-    "eslint": "^10.1.0",
-    "eslint-plugin-format": "^2.0.1",
-    "nano-staged": "^0.9.0",
-    "nuxt": "^4.2.1",
-    "simple-git-hooks": "^2.13.1",
-    "typescript": "^6.0.2",
-    "vue": "^3.5.31",
-    "vue-router": "^5.0.4",
-    "vue-tsc": "^3.2.6"
+    "@antfu/eslint-config": "catalog:",
+    "@nuxt/eslint": "catalog:",
+    "@nuxt/ui": "catalog:",
+    "@vueuse/core": "catalog:",
+    "@vueuse/nuxt": "catalog:",
+    "eslint": "catalog:",
+    "eslint-plugin-format": "catalog:",
+    "nano-staged": "catalog:",
+    "nuxt": "catalog:",
+    "simple-git-hooks": "catalog:",
+    "typescript": "catalog:",
+    "vue": "catalog:",
+    "vue-router": "catalog:",
+    "vue-tsc": "catalog:"
   },
   "simple-git-hooks": {
     "pre-commit": "npx nano-staged"
