@@ -5,6 +5,8 @@
   "editor.quickSuggestions": {
     "strings": "on"
   },
+  "tailwindCSS.classAttributes": ["class", "ui"],
+  "tailwindCSS.classFunctions": ["defineAppConfig"],
 
   // Disable the default formatter, use eslint instead
   "prettier.enable": false,
@@ -42,7 +44,7 @@
     "jsonc",
     "yaml"
   ],
-  "interline-translate.knownPopularWordCount": 6000,
+
   "iconify.annotations": true,
   "iconify.inplace": true
 }
