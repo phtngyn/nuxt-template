@@ -23,7 +23,7 @@ overrides:
 catalog:
   '@antfu/eslint-config': ^9.0.0
   '@nuxt/eslint': ^1.16.0
-  '@nuxt/ui': ^4.8.2
+  '@nuxt/ui': ^4.9.0
   '@vueuse/core': ^14.3.0
   '@vueuse/nuxt': ^14.3.0
   eslint: ^10.5.0
