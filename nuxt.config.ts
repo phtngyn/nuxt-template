@@ -11,14 +11,8 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
-  future: {
-    // compatibilityVersion: 5,
-  },
-
   experimental: {
-    viteEnvironmentApi: true,
     typescriptPlugin: true,
-    payloadExtraction: true,
   },
 
   compatibilityDate: '2025-05-01',
