@@ -2,7 +2,7 @@
   "name": "nuxt",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@11.11.0",
+  "packageManager": "pnpm@12.0.0-alpha.14",
   "engines": {
     "node": ">=24",
     "pnpm": ">=11"
@@ -18,25 +18,26 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "catalog:",
+    "@iconify-json/lucide": "catalog:",
     "@nuxt/eslint": "catalog:",
     "@nuxt/ui": "catalog:",
     "@vueuse/core": "catalog:",
     "@vueuse/nuxt": "catalog:",
     "eslint": "catalog:",
     "eslint-plugin-format": "catalog:",
-    "nano-staged": "catalog:",
+    "lint-staged": "catalog:",
     "nuxt": "catalog:",
     "simple-git-hooks": "catalog:",
+    "tailwindcss": "catalog:",
     "typescript": "catalog:",
     "vue": "catalog:",
     "vue-router": "catalog:",
-    "vue-tsc": "catalog:",
-    "zod": "catalog:"
+    "vue-tsc": "catalog:"
   },
   "simple-git-hooks": {
-    "pre-commit": "npx nano-staged"
+    "pre-commit": "npx lint-staged"
   },
-  "nano-staged": {
+  "lint-staged": {
     "*": "npx eslint . --fix"
   }
 }
