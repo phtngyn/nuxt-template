@@ -25,22 +25,22 @@ overrides:
   semver: ^7.8.5
 
 catalog:
-  '@antfu/eslint-config': ^9.1.0
-  '@iconify-json/lucide': ^1.2.118
+  '@antfu/eslint-config': ^9.2.0
+  '@iconify-json/lucide': ^1.2.120
   '@nuxt/eslint': ^1.16.0
   '@nuxt/ui': ^4.10.0
-  '@vueuse/core': ^14.3.0
-  '@vueuse/nuxt': ^14.3.0
-  eslint: ^10.7.0
+  '@vueuse/core': ^14.4.0
+  '@vueuse/nuxt': ^14.4.0
+  eslint: ^10.8.0
   eslint-plugin-format: ^2.0.1
-  lint-staged: ^17.0.8
+  lint-staged: ^17.2.0
   nuxt: ^4.5.0
   simple-git-hooks: ^2.13.1
   tailwindcss: ^4.3.3
   typescript: ^6.0.3
   vue: ^3.5.40
   vue-router: ^5.2.0
-  vue-tsc: ^3.3.7
+  vue-tsc: ^3.3.8
 
 ignoredBuiltDependencies:
   - '@parcel/watcher'
