@@ -21,26 +21,26 @@ trustPolicy: no-downgrade
 
 overrides:
   chokidar: ^5.0.0
-  magicast: ^0.5.3
+  magicast: ^0.5.4
   semver: ^7.8.5
 
 catalog:
-  '@antfu/eslint-config': ^9.2.0
-  '@iconify-json/lucide': ^1.2.120
-  '@nuxt/eslint': ^1.16.0
+  '@antfu/eslint-config': ^9.3.0
+  '@iconify-json/lucide': ^1.2.123
+  '@nuxt/eslint': ^1.17.0
   '@nuxt/ui': ^4.10.0
   '@vueuse/core': ^14.4.0
   '@vueuse/nuxt': ^14.4.0
-  eslint: ^10.8.0
+  eslint: ^10.8.1
   eslint-plugin-format: ^2.0.1
-  lint-staged: ^17.2.0
+  lint-staged: ^17.3.0
   nuxt: ^4.5.0
   simple-git-hooks: ^2.13.1
   tailwindcss: ^4.3.3
   typescript: ^6.0.3
-  vue: ^3.5.40
+  vue: ^3.5.41
   vue-router: ^5.2.0
-  vue-tsc: ^3.3.8
+  vue-tsc: ^3.3.10
 
 ignoredBuiltDependencies:
   - '@parcel/watcher'
